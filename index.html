@@ -8,73 +8,34 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-	<div class="calculator">
-	This is the Calculator
-	<div class="result">
-		Result here
-	</div>
-		<div class="display">
-		</div>
-		<div class="special">
+<div id="calculator">
+    <!-- Screen and clear key -->
+    <div class="top">
+        <span class="clear">C</span>
+        <div class="screen"></div>
+    </div>
 
-				<div class="col">
-				<button class="bspecial" id="bspecial1">C</button>
-				</div>
-				<div class="col"><button class="bspecial" id="bspecial2"><i class="fa fa-reply" aria-hidden="true"></i>
-				</button>
-				</div>
-				<div class="col"><button class="bspecial" id="bspecial3">=</button></div>
+    <div class="keys">
+        <!-- operators and other keys -->
+        <span>7</span>
+        <span>8</span>
+        <span>9</span>
+        <span class="operator">+</span>
+        <span>4</span>
+        <span>5</span>
+        <span>6</span>
+        <span class="operator">-</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span class="operator">÷</span>
+        <span>0</span>
+        <span>.</span>
+        <span class="eval">=</span>
+        <span class="operator">x</span>
+    </div>
+</div>
 
-		</div>
-		<div class="operands">
-			<div class="col"><button class="bdivide" id="bdivide">/</button></div>
-			<div class="col"><button class="bmultiply" id="bmultiply">x</button></div>
-			<div class="col"><button class="bplus" id="bplus">+</button></div>
-			<div class="col"><button class="bminus" id="bminus">-</button></div>
-            <div class="col"><button class="bbracketleft" id="bbracketleft">(</button></div>
-            <div class="col"><button class="bbracketright" id="bbracketright">)</button></div>
-		</div>
-
-        <div class="numbersConversion">
-				<div class="col">
-					<button class="bbinary" id="bbinary">Bin</button>
-					</div>
-					<div class="col">
-					<button class="bhex" id="bhex">Hex</button>
-					</div>
-					<div class="col">
-					<button class="boct" id="boct">Oct</button>
-					</div>
-
-					<div class="col">
-					<button class="bdec" id="bdec">Dec</button>
-					</div>
-
-        </div>
-
-        <div class="numbers">
-
-					<div class="col"><button class="b9" id="b9">9</button></div>
-					<div class="col"><button class="b8" id="b8">8</button></div>
-                    <div class="col"><button class="b7" id="b7">7</button></div>
-
-
-					<div class="col"><button class="b6" id="b6">6</button></div>
-					<div class="col"><button class="b5" id="b5">5</button></div>
-					<div class="col"><button class="b4" id="b4">4</button></div>
-                    <div class="col"><button class="b3" id="b3">3</button></div>
-
-				
-
-					<div class="col"><button class="b2" id="b2">2</button></div>
-					<div class="col"><button class="b1" id="b1">1</button></div>
-					<div class="col"><button class="b0" id="b0">0</button></div>
-                    <div class="col"><button class="bdot" id="bdot">.</button></div>
-
-		</div><!-- numbers -->
-	</div><!-- calculator -->
-	</div><!-- container -->
 	<script src="app.js"></script>
 </body>
 </html>
