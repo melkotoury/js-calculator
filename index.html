@@ -3,29 +3,78 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>Smart Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
 	<div class="calculator">
 	This is the Calculator
 	<div class="result">
 		Result here
 	</div>
 		<div class="display">
-			This is the Display
 		</div>
 		<div class="special">
-			This is the special
+
+				<div class="col">
+				<button class="bspecial" id="bspecial1">C</button>
+				</div>
+				<div class="col"><button class="bspecial" id="bspecial2"><i class="fa fa-reply" aria-hidden="true"></i>
+				</button>
+				</div>
+				<div class="col"><button class="bspecial" id="bspecial3">=</button></div>
+
 		</div>
 		<div class="operands">
-			This is the operands
+			<div class="col"><button class="bdivide" id="bdivide">/</button></div>
+			<div class="col"><button class="bmultiply" id="bmultiply">x</button></div>
+			<div class="col"><button class="bplus" id="bplus">+</button></div>
+			<div class="col"><button class="bminus" id="bminus">-</button></div>
+            <div class="col"><button class="bbracketleft" id="bbracketleft">(</button></div>
+            <div class="col"><button class="bbopen" id="bbopen">)</button></div>
 		</div>
-		<div class="numbers">
-			This is the Numbers
-		</div>
-	</div>
-	
+
+        <div class="numbersConversion">
+				<div class="col">
+					<button class="bbinary" id="bbinary">Bin</button>
+					</div>
+					<div class="col">
+					<button class="bhex" id="bhex">Hex</button>
+					</div>
+					<div class="col">
+					<button class="boct" id="boct">Oct</button>
+					</div>
+
+					<div class="col">
+					<button class="bdec" id="bdec">Dec</button>
+					</div>
+
+        </div>
+
+        <div class="numbers">
+
+					<div class="col"><button class="b9" id="b9">9</button></div>
+					<div class="col"><button class="b8" id="b8">8</button></div>
+            <div class="col"><button class="b7" id="b7">7</button></div>
+
+
+					<div class="col"><button class="b6" id="b6">6</button></div>
+					<div class="col"><button class="b5" id="b5">5</button></div>
+					<div class="col"><button class="b4" id="b4">4</button></div>
+                    <div class="col"><button class="b3" id="b3">3</button></div>
+
+				
+
+					<div class="col"><button class="b2" id="b2">2</button></div>
+					<div class="col"><button class="b1" id="b1">1</button></div>
+					<div class="col"><button class="b0" id="b0">0</button></div>
+                    <div class="col"><button class="bdot" id="bdot">.</button></div>
+
+		</div><!-- numbers -->
+	</div><!-- calculator -->
+	</div><!-- container -->
 	<script src="app.js"></script>
 </body>
 </html>
